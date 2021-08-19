@@ -1,4 +1,4 @@
-package com.olegorlov.softservejom.sprint03.question06;
+package com.olegorlov.softservejom.sprint02.question06;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -190,20 +190,16 @@ class MyUtils {
     }
 
     circles.sort(new CircleComparator());
-
     if (!circles.isEmpty()) {
       result.add(circles.get(0));
     }
-
 
     if (rectangles.size() > 1) {
       rectangles.sort(new RectangleComparator());
       Rectangle rectangle0 = rectangles.get(0);
       Rectangle rectangle1 = rectangles.get(1);
 
-      if (rectangle0.getArea() > rectangle1.getArea()) {
-        result.add(rectangle0);
-      } else if (rectangle0.equals(rectangle1)) {
+      if (rectangle0.getArea() > rectangle1.getArea() ||rectangle0.equals(rectangle1)) {
         result.add(rectangle0);
       } else {
         result.add(rectangle0);

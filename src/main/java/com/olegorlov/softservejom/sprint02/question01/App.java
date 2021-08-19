@@ -1,4 +1,4 @@
-package com.olegorlov.softservejom.sprint03.question01;
+package com.olegorlov.softservejom.sprint02.question01;
 
 /**
  * @author <a href="mailto:info@olegorlov.com">Oleg Orlov</a>

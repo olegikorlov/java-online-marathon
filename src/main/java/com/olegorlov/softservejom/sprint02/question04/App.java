@@ -1,4 +1,4 @@
-package com.olegorlov.softservejom.sprint03.question04;
+package com.olegorlov.softservejom.sprint02.question04;
 
 import java.math.BigDecimal;
 import java.util.*;

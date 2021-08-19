@@ -1,4 +1,4 @@
-package com.olegorlov.softservejom.sprint03.question05;
+package com.olegorlov.softservejom.sprint02.question05;
 
 import java.util.ArrayList;
 import java.util.List;

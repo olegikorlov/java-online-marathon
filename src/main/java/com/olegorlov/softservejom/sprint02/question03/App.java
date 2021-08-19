@@ -1,7 +1,6 @@
-package com.olegorlov.softservejom.sprint03.question03;
+package com.olegorlov.softservejom.sprint02.question03;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 

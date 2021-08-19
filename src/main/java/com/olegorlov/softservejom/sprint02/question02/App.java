@@ -1,4 +1,4 @@
-package com.olegorlov.softservejom.sprint03.question02;
+package com.olegorlov.softservejom.sprint02.question02;
 
 import java.util.ArrayList;
 import java.util.HashMap;

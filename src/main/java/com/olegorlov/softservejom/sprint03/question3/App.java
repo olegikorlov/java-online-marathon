@@ -1,5 +1,7 @@
 package com.olegorlov.softservejom.sprint03.question3;
 
+import jdk.nashorn.internal.objects.annotations.Function;
+
 /**
  * @author <a href="mailto:info@olegorlov.com">Oleg Orlov</a>
  */
@@ -10,6 +12,8 @@ public class App {
     App.multiplyAbyB(6, 3);
     App.divideAbyB(6, 3);
   }
+
+  Strategy strategy = (a, b) -> a + b;
 
   private static void execute(int a, int b, Strategy strategy) {
     double result = strategy.doOperation(a, b);
@@ -54,6 +58,7 @@ public class App {
 
 }
 
+@FunctionalInterface
 interface Strategy {
 
   double doOperation(int a, int b);

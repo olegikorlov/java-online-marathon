@@ -22,6 +22,8 @@ class ArrayUtil {
   public static <T> T setAndReturn(T[] array, T value, int position) {
     array[position] = value;
     return array[position];
+//    return array[position] = value;
+
   }
 
 }

@@ -32,9 +32,9 @@ public class MyUtils {
         numbers = result.get(name);
       } else {
         numbers = new ArrayList<>();
+        result.put(name, numbers);
       }
       numbers.add(entry.getKey());
-      result.put(name, numbers);
 
     }
 

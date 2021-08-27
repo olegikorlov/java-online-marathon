@@ -20,6 +20,7 @@ public class App {
 }
 
 class ArrayUtils {
+//  public static double averageValue(Array<? extends Number> set) {
   public static <T extends Number> double averageValue(Array<T> set) {
     double sum = 0.0;
     for (int i = 0; set.length() > i; i++) {

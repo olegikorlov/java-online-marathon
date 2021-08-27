@@ -3,6 +3,8 @@ package com.olegorlov.softserve.jom.sprint04.question6;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author <a href="mailto:info@olegorlov.com">Oleg Orlov</a>
@@ -79,7 +81,6 @@ public class App {
 
 }
 
-/*
 class PersonComparator implements Comparator<Person> {
 
   @Override
@@ -117,8 +118,8 @@ class DeveloperComparator implements Comparator<Developer> {
     return o1.getLevel().compareTo(o2.getLevel());
   }
 }
-*/
 
+/*
 class PersonComparator implements Comparator<Object> {
 
   @Override
@@ -162,6 +163,7 @@ class DeveloperComparator extends EmployeeComparator {
     return developer1.getLevel().compareTo(developer2.getLevel());
   }
 }
+*/
 
 class Utility {
 

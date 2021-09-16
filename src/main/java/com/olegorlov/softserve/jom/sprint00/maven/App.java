@@ -1,6 +1,6 @@
 package com.olegorlov.softserve.jom.sprint00.maven;
 
-import org.joda.time.LocalDateTime;
+import java.time.LocalDateTime;
 
 /**
  * @author <a href="mailto:info@olegorlov.com">Oleg Orlov</a>
